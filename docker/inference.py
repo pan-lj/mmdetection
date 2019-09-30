@@ -9,7 +9,7 @@ import time
 
 config_file = 'configs/cascade_rcnn_x101_64x4d_fpn_1x_round2.py'
 
-checkpoint_file = 'work_dirs/cascade_rcnn_x101_64x4d_fpn_1x_round2/epoch_25.pth'
+checkpoint_file = 'docker/epoch_30.pth'
 
 
 # 初始化模型
