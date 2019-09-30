@@ -13,3 +13,5 @@ RUN conda install cython -y && conda clean --all
 RUN git clone https://github.com/pan-lj/mmdetection.git /mmdetection
 WORKDIR /mmdetection
 RUN pip install --no-cache-dir -e .
+
+CMD ["sh", "run.sh"]
